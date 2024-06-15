@@ -9,5 +9,5 @@ class Post(models.Model):
     date=models.DateTimeField(auto_now_add=True)
     banner=models.ImageField(default='fallback.png', blank=True)
     
-    def __str__(self) -> str:
+    def __str__(self) -> str: 
         return self.title
