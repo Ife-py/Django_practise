@@ -7,10 +7,7 @@
 body {
     min-height: 100vh;
     background-color: black;
-    display: flex;
-    flex-flow: column;
     font-size: 3rem;
-    background-color: black;
     color: whitesmoke;
 }
 
@@ -22,14 +19,22 @@ nav {
 }
 
 main {
-    flex-grow: 1;
-    display: grid;
-    place-content: center;
+    padding: 1rem;
+}
+
+section {
+    flex-flow: column;
+    display: flex;
+    gap: 1rem;
 }
 
 h1,
+h2 {
+    font-size: 2.5rem;
+}
+
 p {
-    text-align: center;
+    font-size: 1rem;
 }
 
 a {
